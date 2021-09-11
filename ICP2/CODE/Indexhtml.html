@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Adding Title !-->
+  <title>HTML Basics</title>
+</head>
+<!-- Used style attribute to change the background color of the page!-->
+<body style="background-color:#ffffff;">
+<!--Creation of a HTML page which consists of paragraph,heading,block and inline elements,image links and video!-->
+<h1 style="color: rgba(255,7,164,0.39); font-family: Algerian"> HTML Introduction</h1>
+<p> HTML stands for  <span style="color:#731104;font-weight: bolder">HyperText Markup Language</span>. It is used to design web pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within tag which defines the structure of web pages. This language is used to annotate (make notes for the computer) text so that a machine can understand it and manipulate text accordingly. Most markup languages (e.g. HTML) are human-readable. The language uses tags to define what manipulation has to be done on the text. HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.</p>
+
+<h2 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+What is a list?
+</h2>
+<p>A list is a record of short pieces of information, such as people’s names, usually written or printed with a single thing on each line and ordered in a way that makes a particular thing easy to find.</p>
+
+<h2 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+  Lists in HTML
+</h2>
+<p>HTML offers three ways for specifying lists of information. All lists must contain one or more list
+elements.</p>
+<p>The types of lists that can be used in HTML are :</p>
+<!-- Usage of inline elements!-->
+<ul>
+  <li><span style = "color: crimson">ul</span> : An unordered list. This will list items using plain bullets.</li>
+  <li><span style = "color: crimson">ol</span> : An ordered list. This will use different schemes of numbers to list your items.</li>
+  <li><span style = "color: crimson">dl</span> : A definition list. This arranges your items in the same way as they are arranged in a dictionary.</li>
+
+</ul>
+<h3 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">An Unordered HTML List</h3>
+<p>An unordered list starts with the “ul” tag. Each list item starts with the “li” tag.The list items are marked with bullets i.e small black circles by default.</p>
+<h4 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">The HTML Unordered List has various List Item Markers:- </h4>
+<ul>
+  <li><span style = "color: crimson">Disc</span> : Sets the list item marker to a bullet i.e default.</li>
+  <li><span style = "color: crimson">Circle</span> : Sets the list item marker to a circle.</li>
+  <li><span style = "color: crimson">Square</span> : Sets the list item marker to a square. </li>
+</ul>
+
+<h3 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">An Ordered HTML List</h3>
+<p>An ordered list starts with the “ol” tag. Each list item starts with the “li” tag. The list items are marked with numbers by default. </p>
+<h4 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">The HTML Ordered List has various List Item Markers:</h4>
+<p>The type attribute of the "ol" tag, defines the type of the list item marker. </p>
+<ol>
+  <li type="A">Type=”1″ : The list items will be numbered with numbers i.e default. </li>
+  <li type="A">Type=”A” : The list items will be numbered with uppercase letters.</li>
+  <li type="A">Type=”a” : The list items will be numbered with lowercase letters. </li>
+  <li type="A">Type=”I” : The list items will be numbered with uppercase roman numbers.</li>
+  <li type="A">Type=”i” : The list items will be numbered with lowercase roman numbers.</li>
+</ol>
+<h2 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">Tag vs Element vs Attribute</h2>
+<div>
+
+
+  <h3 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">Tag</h3>
+  <p>Tags are the starting and ending parts of an HTML element. They begin with < symbol and end with > symbol. Whatever written inside < and > are called tags.
+  </p>
+</div>
+<div>
+  <h3 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">Element</h3>
+  <p>Elements enclose the contents in between the tags. They consist of some kind of structure or expression. It generally consists of a start tag, content and an end tag.
+  </p>
+
+</div>
+<div>
+  <h3 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">Attribute</h3>
+  <p>It is used to define the character of an HTML element. It always placed in the opening tag of an element. It generally provides additional styling (attribute) to the element.
+  </p>
+</div>
+<p>Inserted image using "img" tag:</p>
+
+<!-- Usage of anchor tag to attach an image on HTML Page!-->
+
+<a href="https://extragulp.com/html/freecodecamp-basic-html-h2-element/" target="_parent">
+  <img src=
+         https://cdn.lynda.com/course/170427/170427-636923997581008095-16x9.jpg
+       alt="HTML Logo"
+       style="width:400px;
+       height:200px;">
+</a>
+<div>
+  <!-- Usage of iframe tag to add a video !-->
+<iframe width="400" height="315" src="https://www.youtube.com/embed/W-6OY9eI3hk" title="Intro to Html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div >
+  <!-- Usage of video tag to play a video!-->
+  <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+  </video>
+</div>
+<form>
+  <input type="Submit" value="Top of the page">
+</form>
+
+</body>
+</html>
